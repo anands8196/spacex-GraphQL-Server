@@ -1,0 +1,21 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "Spacex launch stats using GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "anands8196",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.0"
+  }
+}
